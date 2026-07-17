@@ -1,7 +1,8 @@
 # SSH Fingerprints
 
 This repository contains my public SSH key fingerprints for verification purposes.
-All of my commits are signed with SSH,
+
+All of my commits are signed with SSH!
 
 ## My Fingerprints
 
@@ -33,8 +34,12 @@ git log --show-signature
 - If the fingerprint ever changes unexpectedly, it could indicate a **man-in-the-middle attack**.
 - This fingerprint is static for this key. If I rotate keys, this README will be updated.
 
-KEYS ROTATION LOG:
-Key 1: 16th July 2026
+## Keys Rotation Log
+| Key Number | Date & Time | Algorithm | Fingerprint |
+|------------|-------------|-----------|-------------|
+|     01     | 16/07/2026 18:14 |  ED25519  |`SHA256:9YwuAPjhCPQvQfZyRtNvbbUu3RkdEol09crVHeMBqvM`|
+
+> NOTE: All Date & Time formats are in DD/MM/YYYY HH:MM and their timezone is UTC since it's constant all year.
 
 ---
 
